@@ -20,7 +20,7 @@ Semantik web programlamada kullanılan etiketlerin anlamlı olmalarıdır böyle
 |time|oluşturulma zamanını tanımlar|
 |main|sayfa içeriğinin ana kökünü belirtir.|
 
-![semantik-etiket-1](./img/semantic-etiketler-1.jpg.crdownload)
+![semantik-etiket-1](./img/semantic-etiketler-1.jpg)
 ![semantic-etiket-2](./img/semantic-etiketler-2.jpg)
 
 - **article**
@@ -50,23 +50,23 @@ Semantik web programlamada kullanılan etiketlerin anlamlı olmalarıdır böyle
     içinde resim gösterilir içindek img etiketi kullanılır
     ```html
     <figure>
-        <img src="http://hdresim.net/resimler/r6/yaz15(34).jpg" alt="yaz manzarası" width="350" height="240">
+        <img src="./img/yazmanzarasi.jpg" alt="yaz manzarası" width="350px" height="240px">
     </figure>
     ```
     <figure>
-        <img src="http://hdresim.net/resimler/r6/yaz15(34).jpg" alt="yaz manzarası" width="350" height="240">
+        <img src="./img/yazmanzarasi.jpg" alt="yaz manzarası" width="350px" height="240px">
     </figure>
 - **figcaption**
     içinde resim gösterilir içindek img etiketi kullanılır
     ```html
     <figure>
         <figcaption>yaz manzarası</figcaption>
-        <img src="http://hdresim.net/resimler/r6/yaz15(34).jpg" alt="yaz manzarası" width="350" height="240">
+        <img src="./img/yazmanzarasi.jpg" alt="yaz manzarası" width="350px" height="240px">
     </figure>
     ```
     <figure>
         <figcaption>yaz manzarası</figcaption>
-        <img src="http://hdresim.net/resimler/r6/yaz15(34).jpg" alt="yaz manzarası" width="350" height="240">
+        <img src="./img/yazmanzarasi.jpg" alt="yaz manzarası" width="350px" height="240px">
     </figure>
 - **footer**
     içinde resim gösterilir içindek img etiketi kullanılır
