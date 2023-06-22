@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+}
+.aciklama{
+    margin:10px;
+    text-align: center;
+}
+.yazi{
+    z-index: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    color:red;
+    opacity: 0.7;
+    position:absolute;
+    top:140px;
+    left:50%;
+    margin-left:110px;
+    background-color: black;
+    padding:10px;
+}
+h1{
+    margin:0px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+img{
+    margin: 0px;
+    text-align: center;
+
+}
+.karakter{
+    float:left;
+    padding: 5px;
+    margin:10px;
+    width:250px;
+    height: 300px;
+    text-align:center;
+    border:5px solid silver;
+}

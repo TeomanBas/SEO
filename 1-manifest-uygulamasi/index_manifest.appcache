@@ -1,0 +1,22 @@
+CACHE MANIFEST
+
+CACHE:
+img/4.jpeg
+img/s.jpg
+
+NETWORK:
+img/0.jpeg
+img/1.jpeg
+img/2.jpeg
+img/3.jpeg
+css/style.css
+
+FALLBACK:
+/img/s.jpg /img/offline.jpg
+
+Bazı dosyaları cache leyen bazı dosyaları ise her sayfanın yenilenmesiyle yeniden yüklenmesini sağlayan index_manifest.apache dosya örneğini yazarmısın sorunuz için web araması yaptım. Bulduğum bilgilere göre:
+
+index_manifest.apache dosyası, HTML5 Cache Manifest dosya biçimini kullanarak web uygulamalarının çevrimdışı çalışmasını sağlayan bir dosyadır.
+Bu dosya biçiminde, CACHE MANIFEST başlığı ile başlayan ve .appcache uzantılı bir dosya oluşturmanız gerekir.
+Bu dosyada, cache lenmesini istediğiniz dosyaları CACHE bölümüne, her zaman yeniden yüklenmesini istediğiniz dosyaları NETWORK bölümüne ve cache lenemeyen dosyalar için alternatif dosyaları FALLBACK bölümüne yazabilirsiniz.
+Örneğin, aşağıdaki gibi bir index_manifest.apache dosyası oluşturabilirsiniz:
